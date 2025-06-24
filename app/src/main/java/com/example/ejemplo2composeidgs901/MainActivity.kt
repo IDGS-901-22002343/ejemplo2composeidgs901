@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
 
-            SumaDosNumeros()
+            OperacionesBasicas()
 //            val navController = rememberNavController()
 //            NavHost(navController = navController, startDestination = "inicio") {
 //                composable("inicio") {
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
 //                }
 //                composable("detalle/{nombre}") { backStackEntry ->
 //                    var nombre = backStackEntry.arguments?.getString("nombre") ?: "invitado"
-//                    PantallaDetalle(navController, nombre)
+//                    PantallaDetalle(navCon    troller, nombre)
 //                }
 //            }
         }
